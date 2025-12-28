@@ -1,0 +1,15 @@
+@import './styles/variables';
+@import "./styles/mixins";
+@import './styles/base';
+
+body {
+  margin: 0;
+  font-family: $font-family-primary;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: $font-family-mono;
+}
+

@@ -1,0 +1,106 @@
+@import './variables';
+@include respond-to(sm) {
+  body { background: red; }
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: $font-family-primary;
+  font-size: $font-size-base;
+  line-height: 1.6;
+  color: $color-text-primary;
+  background-color: $color-bg-primary;
+}
+body {
+  font-size: 3rem;
+
+  @include respond-to(sm) {
+    font-size: 2.5rem;
+  }
+}
+
+// Typography
+h1, h2, h3, h4, h5, h6 {
+  font-weight: $font-weight-semibold;
+  line-height: 1.2;
+  margin-bottom: $spacing-md;
+}
+
+h1 {
+  font-size: $font-size-xxl;
+
+  @include respond-to(sm) {
+    font-size: 2.5rem;
+  }
+}
+
+h2 {
+  font-size: $font-size-xl;
+
+  @include respond-to(sm) {
+    font-size: 2rem;
+  }
+}
+
+h3 {
+  font-size: $font-size-lg;
+}
+
+// Links
+a {
+  color: $color-primary;
+  text-decoration: none;
+  transition: color $transition-fast;
+
+  &:hover {
+    color: $color-primary-dark;
+  }
+}
+
+// Lists
+ul, ol {
+  list-style: none;
+}
+
+// Buttons
+button {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+// Tables
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: $font-size-sm;
+}
+
+th, td {
+  padding: $spacing-sm;
+  text-align: left;
+  border-bottom: 1px solid $color-border;
+}
+
+th {
+  font-weight: $font-weight-semibold;
+  background-color: $color-bg-primary;
+  position: sticky;
+  top: 0;
+}
+
+tbody tr:hover {
+  background-color: $color-bg-primary;
+}
+

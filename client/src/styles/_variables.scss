@@ -1,0 +1,67 @@
+// Colors
+$color-primary: #4a90e2;
+$color-primary-dark: #357abd;
+$color-primary-light: #6ba3e8;
+$color-secondary: #50c878;
+$color-danger: #e74c3c;
+$color-warning: #f39c12;
+$color-success: #27ae60;
+
+$color-bg-primary: #f5f7fa;
+$color-bg-secondary: #ffffff;
+$color-bg-dark: #2c3e50;
+$color-bg-editor: #1e1e1e;
+
+$color-text-primary: #2c3e50;
+$color-text-secondary: #7f8c8d;
+$color-text-light: #ecf0f1;
+$color-text-inverse: #ffffff;
+
+$color-border: #e1e8ed;
+$color-border-dark: #34495e;
+
+// Spacing
+$spacing-xs: 0.25rem; // 4px
+$spacing-sm: 0.5rem;  // 8px
+$spacing-md: 1rem;    // 16px
+$spacing-lg: 1.5rem;  // 24px
+$spacing-xl: 2rem;    // 32px
+$spacing-xxl: 3rem;   // 48px
+
+// Typography
+$font-family-primary: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+$font-family-mono: 'Courier New', Courier, monospace;
+
+$font-size-xs: 0.75rem;   // 12px
+$font-size-sm: 0.875rem;  // 14px
+$font-size-base: 1rem;    // 16px
+$font-size-lg: 1.25rem;   // 20px
+$font-size-xl: 1.5rem;    // 24px
+$font-size-xxl: 2rem;     // 32px
+
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+// Breakpoints (mobile-first)
+$breakpoint-sm: 641px;
+$breakpoint-md: 1024px;
+$breakpoint-lg: 1281px;
+
+// Border radius
+$border-radius-sm: 4px;
+$border-radius-md: 8px;
+$border-radius-lg: 12px;
+
+// Shadows
+$shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+$shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+$shadow-lg: 0 10px 20px rgba(0, 0, 0, 0.15);
+
+// Transitions
+$transition-fast: 0.15s ease;
+$transition-base: 0.3s ease;
+$transition-slow: 0.5s ease;
+

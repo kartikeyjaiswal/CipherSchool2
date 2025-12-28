@@ -1,0 +1,10 @@
+@import './styles/variables';
+@import './styles/mixins';
+@import './styles/base';
+
+.app {
+  min-height: 100vh;
+  background-color: $color-bg-primary;
+  color: $color-text-primary;
+}
+
